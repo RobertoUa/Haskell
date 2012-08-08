@@ -1,7 +1,8 @@
 #!/bin/sh
 echo "Compiling... "
-time ghc --make -O2 -Wall Main.hs
+time ghc Main.hs -O -Wall -fglasgow-exts
 echo "Successfully compiled"
+read -p "Press [Enter] key to con..."
 echo "Running... "
 time ./Main.exe 
 echo "Successfully executed "

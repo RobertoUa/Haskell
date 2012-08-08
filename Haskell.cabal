@@ -1,0 +1,12 @@
+name:           Haskell
+version:        0.1
+cabal-version:  >= 1.2
+build-type:     Simple
+author:         Roberto
+
+executable Haskell
+  hs-source-dirs:  src
+  main-is:         Main.hs
+  build-depends:   base >= 4
+  ghc-options:     -O2
+
