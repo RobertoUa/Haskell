@@ -1,0 +1,980 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"map",
+				"mapM"
+			],
+			[
+				"wh",
+				"where"
+			],
+			[
+				"new",
+				"newList"
+			],
+			[
+				"div",
+				"divis2"
+			],
+			[
+				"di",
+				"divis"
+			],
+			[
+				"divi",
+				"divis"
+			],
+			[
+				"sp",
+				"spiral"
+			],
+			[
+				"isS",
+				"isSumOfForth"
+			],
+			[
+				"con",
+				"concatMap"
+			],
+			[
+				"Int",
+				"Int"
+			],
+			[
+				"file",
+				"filter"
+			],
+			[
+				"fold",
+				"foldl"
+			],
+			[
+				"pri",
+				"print"
+			],
+			[
+				"fo",
+				"foo"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"prime",
+				"primeFactors"
+			],
+			[
+				"euler4",
+				"euler49"
+			],
+			[
+				"cool",
+				"cool2"
+			],
+			[
+				"isP",
+				"isPrime"
+			],
+			[
+				"perm",
+				"permutations"
+			],
+			[
+				"per",
+				"permutations"
+			],
+			[
+				"pro",
+				"problem_65"
+			],
+			[
+				"two",
+				"twoex"
+			],
+			[
+				"zipWith",
+				"zipWith3"
+			],
+			[
+				"zip",
+				"zipWith3"
+			],
+			[
+				"prim",
+				"primesas"
+			],
+			[
+				"fol",
+				"foldl"
+			],
+			[
+				"Pri",
+				"primeFactors"
+			],
+			[
+				"eul",
+				"eul12"
+			],
+			[
+				"scan",
+				"scanl"
+			],
+			[
+				"tr",
+				"triList2"
+			],
+			[
+				"bin",
+				"binomCoeff"
+			],
+			[
+				"eu",
+				"eul12"
+			],
+			[
+				"if",
+				"ifDied"
+			],
+			[
+				"fib",
+				"fibs"
+			],
+			[
+				"take",
+				"takeWhile"
+			],
+			[
+				"zipW",
+				"zipWith7"
+			],
+			[
+				"tw",
+				"two"
+			],
+			[
+				"sq",
+				"sqrt"
+			],
+			[
+				"St",
+				"String"
+			],
+			[
+				"cha",
+				"chain"
+			],
+			[
+				"dig",
+				"digitToInt"
+			],
+			[
+				"n",
+				"numLongChains"
+			],
+			[
+				"Inte",
+				"Integral"
+			],
+			[
+				"In",
+				"Int"
+			],
+			[
+				"ma",
+				"main	Main"
+			],
+			[
+				"read",
+				"readsPrec"
+			],
+			[
+				"drop",
+				"dropWhile"
+			],
+			[
+				"E",
+				"Either"
+			],
+			[
+				"comp",
+				"compress"
+			],
+			[
+				"isPa",
+				"isPal"
+			],
+			[
+				"reve",
+				"myReverse"
+			],
+			[
+				"Bo",
+				"Bool"
+			],
+			[
+				"isO",
+				"isPalindrome"
+			],
+			[
+				"my",
+				"myReverse"
+			],
+			[
+				"Integ",
+				"Integer"
+			],
+			[
+				"put",
+				"putStrLn"
+			],
+			[
+				"B",
+				"BookInfo"
+			],
+			[
+				"last",
+				"lastButOne"
+			],
+			[
+				"la",
+				"lastButOne"
+			],
+			[
+				"max",
+				"maximum"
+			],
+			[
+				"bm",
+				"bmiTell"
+			],
+			[
+				"fi",
+				"fibs"
+			],
+			[
+				"lo",
+				"lostNumbers"
+			],
+			[
+				"do",
+				"doubleSmall"
+			],
+			[
+				"d",
+				"doubleSmall"
+			],
+			[
+				"dou",
+				"doubleMe"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/F/Documents and Settings/Roberto/My Documents/My Pictures/prelude.hs",
+			"settings":
+			{
+				"buffer_size": 20583,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/Workspace/Haskell/src/Script.hs",
+			"settings":
+			{
+				"buffer_size": 5356,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/Workspace/Haskell/src/Main.hs",
+			"settings":
+			{
+				"buffer_size": 570,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Haskell/Haskell.sublime-build",
+			"settings":
+			{
+				"buffer_size": 133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/Workspace/Haskell/runhaskell.sh",
+			"settings":
+			{
+				"buffer_size": 227,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/Workspace/Haskell/Haskell.cabal",
+			"settings":
+			{
+				"buffer_size": 695,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "GHCi, version 7.6.0.20120810: http://www.haskell.org/ghc/  :? for help\nLoading package ghc-prim ... linking ... done.\nLoading package integer-gmp ... linking ... done.\nLoading package base ... linking ... done.\n\n<no location info>: Warning:\n    -fglasgow-exts is deprecated: Use individual extensions instead\n[1 of 1] Compiling Main             ( Script.hs, interpreted )\nOk, modules loaded: Main.\n(0.45 secs, 76103356 bytes)\nghci> takeWhile isPrime [n^2+n+41|n<-[1..]]\nLoading package array-0.4.0.1 ... linking ... done.\nLoading package deepseq-1.3.0.1 ... linking ... done.\nLoading package containers-0.5.0.0 ... linking ... done.\n[43,47,53,61,71,83,97,113,131,151,173,197,223,251,281,313,347,383,421,461,503,547,593,641,691,743,797,853,911,971,1033,1097,1163,1231,1301,1373,1447,1523,1601]\nit :: [Integer]\n(0.11 secs, 4666532 bytes)\nghci> length $ takeWhile isPrime [n^2+n+41|n<-[1..]]\n39\nit :: Int\n(0.00 secs, 1551972 bytes)\nghci> length $ takeWhile isPrime [n^2-79*n+1601|n<-[1..]]\n79\nit :: Int\n(0.00 secs, 1559376 bytes)\nghci> ",
+			"settings":
+			{
+				"buffer_size": 1055,
+				"line_ending": "Windows",
+				"name": "*REPL* [haskell]",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 332.0,
+		"selected_items":
+		[
+			[
+				"rh",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"rha",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"rhal",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"rhall",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"rhll",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"rhl",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"repha",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"rehall",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"haske",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"",
+				":$ - EOF"
+			],
+			[
+				"roset",
+				"Rosetta Code: Get code snippet."
+			],
+			[
+				"rose",
+				"Rot13 Selection"
+			],
+			[
+				"pain",
+				"Package Control: Install Package"
+			],
+			[
+				"pge i",
+				"Package Control: Install Package"
+			],
+			[
+				"togg",
+				"Toggle Block Comment"
+			],
+			[
+				"toggl",
+				"View: Toggle Tabs"
+			],
+			[
+				"togl",
+				"View: Toggle Tabs"
+			],
+			[
+				"togle",
+				"View: Toggle Menu"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				":",
+				":0 - BOF"
+			],
+			[
+				"Package Control: sca",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 205.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Workspace/Haskell/runhaskell.bat",
+		"/E/Workspace/Haskell/dist/build/Haskell/runhaskell.sh",
+		"/E/Workspace/Haskell/Haskell.cabal",
+		"/E/Workspace/Haskell/src/asd/Setup.hs",
+		"/E/Workspace/Haskell/src/asd/Haskell.cabal",
+		"/E/Workspace/Haskell/src/runhaskell.sh",
+		"/E/Workspace/Haskell/Setup.hs",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/Default.sublime-commands",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/TODO.txt",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/package-metadata.json",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/Main.sublime-menu",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/autocomplete.py",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/SublimeHaskell.sublime-settings",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/E/Workspace/Haskell/src/Script.hs",
+		"/E/beta/eclipse/eclipse.ini",
+		"/E/Workspace/Haskell/src/file.txt",
+		"/E/Workspace/Haskell/src/names.txt",
+		"/E/Workspace/Haskell/src/keylog.txt",
+		"/E/Workspace/Haskell/src/scrript.py",
+		"/E/Workspace/Haskell/src/Main.ticky",
+		"/E/Workspace/Haskell/src/Main.hp",
+		"/F/Documents and Settings/Roberto/Desktop/SpaceInvaders-0.4.2/SpaceInvaders.cabal",
+		"/F/Documents and Settings/Roberto/Desktop/SpaceInvaders-0.4.2/src/Main.hs",
+		"/F/Documents and Settings/Roberto/Desktop/HGL-3.2.0.2/Setup.hs",
+		"/F/Documents and Settings/Roberto/Desktop/HGL-3.2.0.2/HGL.cabal",
+		"/E/Workspace/Haskell/src/core.txt",
+		"/F/Program Files/Vim/vimfiles/ftplugin/haskell.vim",
+		"/F/Program Files/Vim/_vimrc",
+		"/F/Documents and Settings/Roberto/Application Data/ghc/ghci.conf",
+		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.899/usercmd_t.java",
+		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.344/GameCombat.java",
+		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.329/Reactive.hs",
+		"/E/Workspace/Haskell/src/Snake.hs",
+		"/E/Workspace/course/test/src/L02/List/Tests.hs",
+		"/E/Workspace/course/src/L02/List.hs",
+		"/E/Workspace/course/test/dist/build/course-test/run.bat",
+		"/E/Workspace/course/src/L01/Optional.hs",
+		"/E/Workspace/course/Course.cabal",
+		"/E/Workspace/course/test/Course-Test.cabal",
+		"/E/Workspace/course/test/run.bat",
+		"/E/Workspace/course/test/run.sh",
+		"/E/Workspace/course/src/Course.hs",
+		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/sniper.cfg",
+		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/soldier.cfg",
+		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/engineer.cfg",
+		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/scout.cfg",
+		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/heavyweapons.cfg",
+		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/spy.cfg",
+		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/pyro.cfg",
+		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/demoman.cfg",
+		"/E/Workspace/Haskell/src/Main.s",
+		"/E/Workspace/Haskell/src/Main.hi",
+		"/E/Workspace/Haskell/src/Main.hspp",
+		"/E/Workspace/Haskell/src/Main.o",
+		"/E/Workspace/test/src/Main.java",
+		"/F/Documents and Settings/Roberto/My Documents/Prelude.hs",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Java/JavaC.sublime-build",
+		"/F/Documents and Settings/Roberto/My Documents/baby.hs",
+		"/F/Program Files/Dictionary.com/CleverKeys/ReadMe.txt",
+		"/F/Program Files/FreeSpell/FreeSpell.ini",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/highframes.cfg",
+		"/F/Documents and Settings/Roberto/Application Data/id Software/quakelive/home/baseq3/ww.cfg",
+		"/E/eclipse/eclipse.ini",
+		"/E/Indigo/eclipse/eclipse.ini",
+		"/E/Workspace/Haskell/src/Main.hs",
+		"/F/Documents and Settings/Roberto/Desktop/runhaskell.sh",
+		"/F/Documents and Settings/Roberto/Desktop/Main.hs",
+		"/E/Workspace/Haskell/src/runhaskell.bat",
+		"/E/jdk-fe578c2b482b/README",
+		"/E/jdk-fe578c2b482b/THIRD_PARTY_README",
+		"/E/jdk-fe578c2b482b/make/Makefile",
+		"/E/jdk-fe578c2b482b/src/share/bin/java.c",
+		"/E/jdk-fe578c2b482b/src/share/native/java/lang/Double.c",
+		"/E/jdk-fe578c2b482b/src/share/native/java/lang/Thread.c",
+		"/E/jdk-fe578c2b482b/src/share/native/java/lang/System.c",
+		"/E/jdk-fe578c2b482b/src/share/native/java/lang/Compiler.c",
+		"/E/jdk-fe578c2b482b/src/share/native/java/lang/ClassLoader.c",
+		"/E/jdk-fe578c2b482b/src/share/native/java/lang/ref/Finalizer.c",
+		"/E/jdk-fe578c2b482b/src/share/classes/java/lang/String.java",
+		"/E/jdk-fe578c2b482b/src/share/classes/java/util/Iterators.java",
+		"/F/Program Files/Java/jdk1.8.0/release",
+		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.395/GTKColorChooserPanel.java",
+		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.981/Predicate.java",
+		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.027/Mapper.java",
+		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.942/IntBinaryOperator.java",
+		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.104/DoubleBinaryOperator.java",
+		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.968/BiPredicate.java",
+		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.125/Predicates.java",
+		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.301/util.c",
+		"/E/Books/Craig_Larman_Applying_UML_and_patterns_SE.djvu",
+		"/E/Workspace/Screenshoter/.gitignore",
+		"/E/Workspace/Screenshoter/.gitattributes",
+		"/E/Libraries/Vorbis/VorbisJava/tools/src/main/java/org/gagravarr/ogg/tools/OggInfoTool.java",
+		"/E/Workspace/Haskell/Haskell.lkshs",
+		"/E/Workspace/Haskell/Haskell.lkshw",
+		"/E/Workspace/Haskell/Setup.lhs",
+		"/E/Workspace/Haskell/dist/setup-config",
+		"/E/Workspace/Haskell/dist/package.conf.inplace",
+		"/E/Workspace/Haskell/.project",
+		"/E/Workspace/Haskell/dist/build/autogen/Paths_Haskell.hs",
+		"/E/Workspace/Haskell/dist/build/autogen/cabal_macros.h",
+		"/E/Workspace/Haskell/dist/build/Haskell/Haskell-tmp/Main.o",
+		"/E/Workspace/Haskell/dist/build/Haskell/Haskell-tmp/Main.hi",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Haskell/Haskell.sublime-build",
+		"/E/Workspace/Haskell/src/1000.txt",
+		"/E/Workspace/Haskell/src/proj/asd.sublime-project",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Haskell/Haskell.tmLanguage",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Haskell/Haskell.tmLanguage.cache",
+		"/E/Workspace/Haskell/src/New Text Document.txt",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/README.md",
+		"/F/Documents and Settings/Roberto/Desktop/channel.jpg",
+		"/F/Documents and Settings/Roberto/.DBCfg/cfg.ini",
+		"/F/Documents and Settings/Roberto/.DBCfg/cfg.xml",
+		"/E/Workspace/course/test/.ghci",
+		"/E/Workspace/course/src/L01/Validation.hs",
+		"/E/Workspace/course/test/src/L01/Validation/Tests.hs",
+		"/F/Documents and Settings/Roberto/Desktop/12/all.txt",
+		"/F/Documents and Settings/Roberto/Desktop/12/Archer - 2x01 - Swiss Miss.HDTV.FQM.gr.srt",
+		"/E/eclipse/artifacts.xml",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/F/Documents and Settings/Roberto/.emacs.d/init.el",
+		"/F/Documents and Settings/Roberto/Application Data/cabal/hlint-1.8.30/hlint.ghci",
+		"/E/Workspace/Haskell/src/script.hs"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"map",
+			"mapM",
+			"read",
+			"compress",
+			"prime",
+			"ctrl+alt",
+			"r_displayRefresh",
+			"concat",
+			"\n",
+			"n",
+			"module",
+			"InВ",
+			"w",
+			"\n    ",
+			"\\n",
+			"zipWith",
+			"fmap",
+			"elem",
+			"asd = 37107287533902102798797998220837590246510135740250\n46376937677490009712648124896970078050417018260538\n74324986199524741059474233309513058123726617309629\n91942213363574161572522430563301811072406154908250\n23067588207539346171171980310421047513778063246676\n89261670696623633820136378418383684178734361726757\n28112879812849979408065481931592621691275889832738\n44274228917432520321923589422876796487670272189318\n47451445736001306439091167216856844588711603153276\n70386486105843025439939619828917593665686757934951\n62176457141856560629502157223196586755079324193331\n64906352462741904929101432445813822663347944758178\n92575867718337217661963751590579239728245598838407\n58203565325359399008402633568948830189458628227828\n80181199384826282014278194139940567587151170094390\n35398664372827112653829987240784473053190104293586\n86515506006295864861532075273371959191420517255829\n71693888707715466499115593487603532921714970056938\n54370070576826684624621495650076471787294438377604\n53282654108756828443191190634694037855217779295145\n36123272525000296071075082563815656710885258350721\n45876576172410976447339110607218265236877223636045\n17423706905851860660448207621209813287860733969412\n81142660418086830619328460811191061556940512689692\n51934325451728388641918047049293215058642563049483\n62467221648435076201727918039944693004732956340691\n15732444386908125794514089057706229429197107928209\n55037687525678773091862540744969844508330393682126\n18336384825330154686196124348767681297534375946515\n80386287592878490201521685554828717201219257766954\n78182833757993103614740356856449095527097864797581\n16726320100436897842553539920931837441497806860984\n48403098129077791799088218795327364475675590848030\n87086987551392711854517078544161852424320693150332\n59959406895756536782107074926966537676326235447210\n69793950679652694742597709739166693763042633987085\n41052684708299085211399427365734116182760315001271\n65378607361501080857009149939512557028198746004375\n35829035317434717326932123578154982629742552737307\n94953759765105305946966067683156574377167401875275\n88902802571733229619176668713819931811048770190271\n25267680276078003013678680992525463401061632866526\n36270218540497705585629946580636237993140746255962\n24074486908231174977792365466257246923322810917141\n91430288197103288597806669760892938638285025333403\n34413065578016127815921815005561868836468420090470\n23053081172816430487623791969842487255036638784583\n11487696932154902810424020138335124462181441773470\n63783299490636259666498587618221225225512486764533\n67720186971698544312419572409913959008952310058822\n95548255300263520781532296796249481641953868218774\n76085327132285723110424803456124867697064507995236\n37774242535411291684276865538926205024910326572967\n23701913275725675285653248258265463092207058596522\n29798860272258331913126375147341994889534765745501\n18495701454879288984856827726077713721403798879715\n38298203783031473527721580348144513491373226651381\n34829543829199918180278916522431027392251122869539\n40957953066405232632538044100059654939159879593635\n29746152185502371307642255121183693803580388584903\n41698116222072977186158236678424689157993532961922\n62467957194401269043877107275048102390895523597457\n23189706772547915061505504953922979530901129967519\n86188088225875314529584099251203829009407770775672\n11306739708304724483816533873502340845647058077308\n82959174767140363198008187129011875491310547126581\n97623331044818386269515456334926366572897563400500\n42846280183517070527831839425882145521227251250327\n55121603546981200581762165212827652751691296897789\n32238195734329339946437501907836945765883352399886\n75506164965184775180738168837861091527357929701337\n62177842752192623401942399639168044983993173312731\n32924185707147349566916674687634660915035914677504\n99518671430235219628894890102423325116913619626622\n73267460800591547471830798392868535206946944540724\n76841822524674417161514036427982273348055556214818\n97142617910342598647204516893989422179826088076852\n87783646182799346313767754307809363333018982642090\n10848802521674670883215120185883543223812876952786\n71329612474782464538636993009049310363619763878039\n62184073572399794223406235393808339651327408011116\n66627891981488087797941876876144230030984490851411\n60661826293682836764744779239180335110989069790714\n85786944089552990653640447425576083659976645795096\n66024396409905389607120198219976047599490197230297\n64913982680032973156037120041377903785566085089252\n16730939319872750275468906903707539413042652315011\n94809377245048795150954100921645863754710598436791\n78639167021187492431995700641917969777599028300699\n15368713711936614952811305876380278410754449733078\n40789923115535562561142322423255033685442488917353\n44889911501440648020369068063960672322193204149535\n41503128880339536053299340368006977710650566631954\n81234880673210146739058568557934581403627822703280\n82616570773948327592232845941706525094512325230608\n22918802058777319719839450180888072429661980811197\n77158542502016545090413245809786882778948721859617\n72107838435069186155435662884062257473692284509516\n20849603980134001723930671666823555245252804609722\n53503534226472524250874054075591789781264330331690",
+			"list",
+			"> ",
+			"list",
+			"",
+			"2",
+			"abcd",
+			"y",
+			"abcd",
+			"Loading",
+			"head",
+			"simpl",
+			"animat",
+			"r_mapOverBrightBits",
+			"detect",
+			"type",
+			"r_mapOverBrightBits",
+			"->",
+			"a",
+			"fold",
+			" :",
+			"max",
+			"error",
+			"haskell",
+			"vintag",
+			"timenud",
+			"verBrightBits",
+			"postpro",
+			"r_dynamiclight",
+			"impleMipMaps",
+			"r_detailtextures",
+			"gnorehwgamma",
+			"com",
+			"com_zoneMegs",
+			"r_picmip",
+			"picmi",
+			"r_pic",
+			"r_enablePostProcess",
+			"r_lightmap",
+			"compre",
+			"r_overBrightBits",
+			"full",
+			"zoomf",
+			"fov",
+			"smoke",
+			"cg_truelightning",
+			"filter",
+			"syn",
+			"syn on",
+			"simpleite"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/F/Documents and Settings/Roberto/My Documents/My Pictures/prelude.hs",
+					"settings":
+					{
+						"buffer_size": 20583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3011,
+								3011
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/Haskell/Haskell.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1803.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/Workspace/Haskell/src/Script.hs",
+					"settings":
+					{
+						"buffer_size": 5356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1429,
+								1429
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/Haskell/Haskell.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 153.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/E/Workspace/Haskell/src/Main.hs",
+					"settings":
+					{
+						"buffer_size": 570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/Haskell/Haskell.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Haskell/Haskell.sublime-build",
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/Workspace/Haskell/runhaskell.sh",
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/E/Workspace/Haskell/Haskell.cabal",
+					"settings":
+					{
+						"buffer_size": 695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								695,
+								695
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 1055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1055,
+								1055
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"detect_indentation": false,
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"indent_subsequent_lines": false,
+							"repl": true,
+							"repl_external_id": "haskell",
+							"repl_id": "24206065bece4f06998102db967e4568",
+							"smart_indent": false,
+							"syntax": "Packages/Haskell/Haskell.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 280.0
+	},
+	"output.haskell_error_checker":
+	{
+		"height": 27.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 607.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"re",
+				"*REPL* [haskell]"
+			],
+			[
+				"",
+				"/E/Workspace/Haskell/src/Script.hs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/E/Workspace/Haskell/src/proj/asd.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true
+}

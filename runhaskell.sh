@@ -1,9 +1,10 @@
 #!/bin/sh
 echo "Compiling... "
-time ghc Main.hs -O -Wall -fglasgow-exts
+cd E:/Workspace/Haskell
+time cabal build
 echo "Successfully compiled"
-read -p "Press [Enter] key to con..."
 echo "Running... "
-time ./Main.exe 
+cd E:/Workspace/Haskell/dist/build/Haskell
+time ./Haskell.exe
 echo "Successfully executed "
 read -p "Press [Enter] key to exit..."
