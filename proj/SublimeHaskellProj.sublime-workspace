@@ -276,77 +276,27 @@
 	"buffers":
 	[
 		{
-			"file": "/F/Documents and Settings/Roberto/My Documents/My Pictures/prelude.hs",
+			"file": "prelude.hs",
 			"settings":
 			{
 				"buffer_size": 20583,
 				"line_ending": "Windows"
 			}
-		},
-		{
-			"file": "/E/Workspace/Haskell/src/Script.hs",
-			"settings":
-			{
-				"buffer_size": 5356,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/E/Workspace/Haskell/src/Main.hs",
-			"settings":
-			{
-				"buffer_size": 570,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Haskell/Haskell.sublime-build",
-			"settings":
-			{
-				"buffer_size": 133,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/E/Workspace/Haskell/runhaskell.sh",
-			"settings":
-			{
-				"buffer_size": 227,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/E/Workspace/Haskell/Haskell.cabal",
-			"settings":
-			{
-				"buffer_size": 695,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "GHCi, version 7.6.0.20120810: http://www.haskell.org/ghc/  :? for help\nLoading package ghc-prim ... linking ... done.\nLoading package integer-gmp ... linking ... done.\nLoading package base ... linking ... done.\n\n<no location info>: Warning:\n    -fglasgow-exts is deprecated: Use individual extensions instead\n[1 of 1] Compiling Main             ( Script.hs, interpreted )\nOk, modules loaded: Main.\n(0.45 secs, 76103356 bytes)\nghci> takeWhile isPrime [n^2+n+41|n<-[1..]]\nLoading package array-0.4.0.1 ... linking ... done.\nLoading package deepseq-1.3.0.1 ... linking ... done.\nLoading package containers-0.5.0.0 ... linking ... done.\n[43,47,53,61,71,83,97,113,131,151,173,197,223,251,281,313,347,383,421,461,503,547,593,641,691,743,797,853,911,971,1033,1097,1163,1231,1301,1373,1447,1523,1601]\nit :: [Integer]\n(0.11 secs, 4666532 bytes)\nghci> length $ takeWhile isPrime [n^2+n+41|n<-[1..]]\n39\nit :: Int\n(0.00 secs, 1551972 bytes)\nghci> length $ takeWhile isPrime [n^2-79*n+1601|n<-[1..]]\n79\nit :: Int\n(0.00 secs, 1559376 bytes)\nghci> ",
-			"settings":
-			{
-				"buffer_size": 1055,
-				"line_ending": "Windows",
-				"name": "*REPL* [haskell]",
-				"scratch": true
-			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/Haskell/Haskell.sublime-build",
 	"command_palette":
 	{
-		"height": 332.0,
+		"height": 272.0,
 		"selected_items":
 		[
 			[
-				"rh",
-				"SublimeREPL: Haskell"
-			],
-			[
 				"Package Control: ",
 				"Package Control: List Packages"
+			],
+			[
+				"rh",
+				"SublimeREPL: Haskell"
 			],
 			[
 				"rha",
@@ -446,23 +396,36 @@
 	},
 	"file_history":
 	[
-		"/E/Workspace/Haskell/runhaskell.bat",
-		"/E/Workspace/Haskell/dist/build/Haskell/runhaskell.sh",
+		"/F/Documents and Settings/Roberto/My Documents/My Pictures/prelude.hs",
+		"/E/Workspace/Haskell/src/Script.hs",
+		"/E/Workspace/Haskell/src/Main.hs",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/ModuleInspector.hs",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/sublime_haskell_common.py",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/autocomplete.py",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/autobuild.py",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/Haskell.sublime-completions",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/haskell_type.py",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/package-metadata.json",
 		"/E/Workspace/Haskell/Haskell.cabal",
+		"/E/Workspace/Haskell/proj/SublimeHaskellProj.sublime-workspace",
+		"/E/Workspace/Haskell/proj/SublimeHaskellProj.sublime-project",
+		"/E/Workspace/Haskell/dist/setup-config",
+		"/E/Workspace/Haskell/dist/package.conf.inplace",
+		"/E/Workspace/Haskell/runhaskell.bat",
+		"/E/Workspace/Haskell/runhaskell.sh",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Haskell/Haskell.sublime-build",
+		"/E/Workspace/Haskell/Setup.hs",
+		"/E/Workspace/Haskell/dist/build/Haskell/runhaskell.sh",
 		"/E/Workspace/Haskell/src/asd/Setup.hs",
 		"/E/Workspace/Haskell/src/asd/Haskell.cabal",
 		"/E/Workspace/Haskell/src/runhaskell.sh",
-		"/E/Workspace/Haskell/Setup.hs",
 		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/Default.sublime-commands",
 		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/TODO.txt",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/package-metadata.json",
 		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/Main.sublime-menu",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/autocomplete.py",
 		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/SublimeHaskell.sublime-settings",
 		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/E/Workspace/Haskell/src/Script.hs",
 		"/E/beta/eclipse/eclipse.ini",
 		"/E/Workspace/Haskell/src/file.txt",
 		"/E/Workspace/Haskell/src/names.txt",
@@ -514,7 +477,6 @@
 		"/F/Documents and Settings/Roberto/Application Data/id Software/quakelive/home/baseq3/ww.cfg",
 		"/E/eclipse/eclipse.ini",
 		"/E/Indigo/eclipse/eclipse.ini",
-		"/E/Workspace/Haskell/src/Main.hs",
 		"/F/Documents and Settings/Roberto/Desktop/runhaskell.sh",
 		"/F/Documents and Settings/Roberto/Desktop/Main.hs",
 		"/E/Workspace/Haskell/src/runhaskell.bat",
@@ -546,14 +508,11 @@
 		"/E/Workspace/Haskell/Haskell.lkshs",
 		"/E/Workspace/Haskell/Haskell.lkshw",
 		"/E/Workspace/Haskell/Setup.lhs",
-		"/E/Workspace/Haskell/dist/setup-config",
-		"/E/Workspace/Haskell/dist/package.conf.inplace",
 		"/E/Workspace/Haskell/.project",
 		"/E/Workspace/Haskell/dist/build/autogen/Paths_Haskell.hs",
 		"/E/Workspace/Haskell/dist/build/autogen/cabal_macros.h",
 		"/E/Workspace/Haskell/dist/build/Haskell/Haskell-tmp/Main.o",
 		"/E/Workspace/Haskell/dist/build/Haskell/Haskell-tmp/Main.hi",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Haskell/Haskell.sublime-build",
 		"/E/Workspace/Haskell/src/1000.txt",
 		"/E/Workspace/Haskell/src/proj/asd.sublime-project",
 		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/User/JSON.sublime-settings",
@@ -564,16 +523,7 @@
 		"/F/Documents and Settings/Roberto/Desktop/channel.jpg",
 		"/F/Documents and Settings/Roberto/.DBCfg/cfg.ini",
 		"/F/Documents and Settings/Roberto/.DBCfg/cfg.xml",
-		"/E/Workspace/course/test/.ghci",
-		"/E/Workspace/course/src/L01/Validation.hs",
-		"/E/Workspace/course/test/src/L01/Validation/Tests.hs",
-		"/F/Documents and Settings/Roberto/Desktop/12/all.txt",
-		"/F/Documents and Settings/Roberto/Desktop/12/Archer - 2x01 - Swiss Miss.HDTV.FQM.gr.srt",
-		"/E/eclipse/artifacts.xml",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
-		"/F/Documents and Settings/Roberto/.emacs.d/init.el",
-		"/F/Documents and Settings/Roberto/Application Data/cabal/hlint-1.8.30/hlint.ghci",
-		"/E/Workspace/Haskell/src/script.hs"
+		"/E/Workspace/course/test/.ghci"
 	],
 	"find":
 	{
@@ -591,6 +541,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"get_cabal_project_dir_of_file",
 			"map",
 			"mapM",
 			"read",
@@ -677,12 +628,12 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/F/Documents and Settings/Roberto/My Documents/My Pictures/prelude.hs",
+					"file": "prelude.hs",
 					"settings":
 					{
 						"buffer_size": 20583,
@@ -692,8 +643,8 @@
 						"selection":
 						[
 							[
-								3011,
-								3011
+								0,
+								0
 							]
 						],
 						"settings":
@@ -702,189 +653,6 @@
 							"encoding_helper_encoding": "UTF-8",
 							"encoding_helper_encoding_sublime": "UTF-8",
 							"syntax": "Packages/Haskell/Haskell.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1803.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/E/Workspace/Haskell/src/Script.hs",
-					"settings":
-					{
-						"buffer_size": 5356,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1429,
-								1429
-							]
-						],
-						"settings":
-						{
-							"encoding_helper_confidence": 1.0,
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_helper_encoding_sublime": "UTF-8",
-							"syntax": "Packages/Haskell/Haskell.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 153.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/E/Workspace/Haskell/src/Main.hs",
-					"settings":
-					{
-						"buffer_size": 570,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								189,
-								189
-							]
-						],
-						"settings":
-						{
-							"encoding_helper_confidence": 1.0,
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_helper_encoding_sublime": "UTF-8",
-							"syntax": "Packages/Haskell/Haskell.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Haskell/Haskell.sublime-build",
-					"settings":
-					{
-						"buffer_size": 133,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								133,
-								133
-							]
-						],
-						"settings":
-						{
-							"encoding_helper_confidence": 1.0,
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_helper_encoding_sublime": "UTF-8",
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/E/Workspace/Haskell/runhaskell.sh",
-					"settings":
-					{
-						"buffer_size": 227,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								153,
-								153
-							]
-						],
-						"settings":
-						{
-							"encoding_helper_confidence": 1.0,
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_helper_encoding_sublime": "UTF-8",
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/E/Workspace/Haskell/Haskell.cabal",
-					"settings":
-					{
-						"buffer_size": 695,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								695,
-								695
-							]
-						],
-						"settings":
-						{
-							"encoding_helper_confidence": 1.0,
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_helper_encoding_sublime": "UTF-8",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"settings":
-					{
-						"buffer_size": 1055,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1055,
-								1055
-							]
-						],
-						"settings":
-						{
-							"auto_indent": false,
-							"detect_indentation": false,
-							"encoding_helper_encoding_sublime": "UTF-8",
-							"indent_subsequent_lines": false,
-							"repl": true,
-							"repl_external_id": "haskell",
-							"repl_id": "24206065bece4f06998102db967e4568",
-							"smart_indent": false,
-							"syntax": "Packages/Haskell/Haskell.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -928,7 +696,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 280.0
+		"height": 42.0
 	},
 	"output.haskell_error_checker":
 	{
