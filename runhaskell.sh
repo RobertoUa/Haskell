@@ -5,6 +5,8 @@ time cabal build
 echo "Successfully compiled"
 echo "Running... "
 cd E:/Workspace/Haskell/dist/build/Haskell
-time ./Haskell.exe
-echo "Successfully executed "
+mv -f ./Haskell.exe ./run.exe
+time  ./run.exe
+mv -f ./run.exe ./old.exe
+echo "renamed "
 read -p "Press [Enter] key to exit..."

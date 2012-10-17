@@ -1,22 +1,19 @@
 module Main (main) where
 import Data.List
 import Data.Char
-{-euler67 = do
-  file <- readFile "file.txt"
-  print $ map ((map (\x -> read x :: Integer)).words) $ lines file      
--}
-primes = 2 : filter ((==1) . length . primeFactors) [3,5..]
 
-primeFactors n = factor n primes
-  where
-    factor n (p:ps) 
-        | p*p > n        = [n]
-        | n `mod` p == 0 = p : factor (n `div` p) (p:ps)
-        | otherwise      = factor n ps
+euler14 = maximum $ map (\x-> (length $ chain x , x)) [1..1000000]    
 
-isPrime n | n > 1     = primeFactors n == [n]
-          | otherwise = False
+chain :: (Integral a)=> a -> [a]
+chain 1 = [1]
+chain n
+        | even n = n:chain (div n 2)
+        | odd  n = n:chain (n*3 + 1)
 
-main :: IO ()       
-main = print $ filterAll $ sortBy (flip compare) $ permutations ['1'..'7']
-  where filterAll = find (\str -> isPrime (read str :: Integer)) 
+{-main = do
+  file <- readFile "matrix.txt"
+  let matrix = [(read ("[" ++ x ++ "]") :: [Int])|x<-(lines file)]
+      maxSum = let reduce xs = zipWith (+) (zipWith min xs (tail xs)) in foldl1 reduce
+  print $ maxSum $ transpose matrix-}
+
+main = print euler14

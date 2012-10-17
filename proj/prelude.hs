@@ -1,3 +1,5 @@
+:reload
+reload
 data Bool
 = False
 | True

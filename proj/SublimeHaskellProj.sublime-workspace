@@ -4,6 +4,90 @@
 		"selected_items":
 		[
 			[
+				"ano",
+				"another_way_to_write_class_methods"
+			],
+			[
+				"gro",
+				"group_by"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"Tri",
+				"TriangleError"
+			],
+			[
+				"My",
+				"MySpecialError"
+			],
+			[
+				"StandardE",
+				"StandardError"
+			],
+			[
+				"fa",
+				"false_stuff"
+			],
+			[
+				"true",
+				"true_stuff"
+			],
+			[
+				"false",
+				"false_value"
+			],
+			[
+				"No",
+				"NoMethodError"
+			],
+			[
+				"retur",
+				"return_value"
+			],
+			[
+				"m",
+				"my_global_method"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"Che",
+				"Cheese"
+			],
+			[
+				"object",
+				"object_id"
+			],
+			[
+				"Exe",
+				"Exercises"
+			],
+			[
+				"tree",
+				"treeFilter"
+			],
+			[
+				"ech",
+				"echoActor3"
+			],
+			[
+				"pr",
+				"primeFactor"
+			],
+			[
+				"pri",
+				"primeFactors"
+			],
+			[
+				"primes",
+				"primes"
+			],
+			[
 				"map",
 				"mapM"
 			],
@@ -44,16 +128,8 @@
 				"Int"
 			],
 			[
-				"file",
-				"filter"
-			],
-			[
 				"fold",
 				"foldl"
-			],
-			[
-				"pri",
-				"print"
 			],
 			[
 				"fo",
@@ -276,27 +352,109 @@
 	"buffers":
 	[
 		{
-			"file": "prelude.hs",
+			"file": "/E/Workspace/Haskell/src/Script.hs",
 			"settings":
 			{
-				"buffer_size": 20583,
+				"buffer_size": 11967,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/Workspace/Haskell/src/Exercises.hs",
+			"settings":
+			{
+				"buffer_size": 5524,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "GHCi, version 7.4.1: http://www.haskell.org/ghc/  :? for help\nLoading package ghc-prim ... linking ... done.\nLoading package integer-gmp ... linking ... done.\nLoading package base ... linking ... done.\n[1 of 1] Compiling Main             ( Script.hs, interpreted )\n\nScript.hs:15:73:\n    Couldn't match expected type `[a0] -> c0' with actual type `String'\n    Expected type: a1 -> [a0] -> c0\n      Actual type: a1 -> String\n    In the second argument of `(.)', namely `show'\n    In the expression: isPalind . show\n\nScript.hs:75:36:\n    Couldn't match expected type `[a0] -> c0' with actual type `[b0]'\n    In the return type of a call of `convRadix'\n    Probable cause: `convRadix' is applied to too many arguments\n    In the first argument of `isPalind', namely `(convRadix 2 n)'\n    In the first argument of `(&&)', namely `isPalind (convRadix 2 n)'\nFailed, modules loaded: none.\n(0.42 secs, 57829188 bytes)\nghci> return 5 \n5\nit :: Integer\n(0.00 secs, 0 bytes)\nghci> return [2]\n[2]\nit :: [Integer]\n(0.00 secs, 0 bytes)\nghci> bind [2]\n\n<interactive>:4:1: Not in scope: `bind'\n(0.00 secs, 0 bytes)\nghci> import Data.Monad\n(0.00 secs, 0 bytes)\nghci> bind [2]\nacc\n\n<interactive>:6:1: Not in scope: `bind'\n(0.00 secs, 0 bytes)\nghci> \n<interactive>:7:1: Not in scope: `acc'\n(0.00 secs, 517832 bytes)\nghci> bind [2]\n\n<interactive>:8:1: Not in scope: `bind'\n(0.00 secs, 517904 bytes)\nghci> :l Exercises\n[1 of 1] Compiling Exercises        ( Exercises.hs, interpreted )\nOk, modules loaded: Exercises.\n(0.09 secs, 21495312 bytes)\nghci> :l Exercises\n[1 of 1] Compiling Exercises        ( Exercises.hs, interpreted )\n\nExercises.hs:64:1:\n    Equations for `add' have different numbers of arguments\n      Exercises.hs:64:1-15\n      Exercises.hs:65:1-24\nFailed, modules loaded: none.\n(0.05 secs, 9406896 bytes)\nghci> :l Exercises\n[1 of 1] Compiling Exercises        ( Exercises.hs, interpreted )\n\nExercises.hs:64:1:\n    Equations for `add' have different numbers of arguments\n      Exercises.hs:64:1-15\n      Exercises.hs:65:1-38\nFailed, modules loaded: none.\n(0.06 secs, 9409916 bytes)\nghci> :l Exercises\n[1 of 1] Compiling Exercises        ( Exercises.hs, interpreted )\n\nExercises.hs:64:14: Not in scope: `a'\nFailed, modules loaded: none.\n(0.02 secs, 4204452 bytes)\nghci> :l Exercises\n[1 of 1] Compiling Exercises        ( Exercises.hs, interpreted )\n\nExercises.hs:64:1:\n    Equations for `add' have different numbers of arguments\n      Exercises.hs:64:1-14\n      Exercises.hs:65:1-38\nFailed, modules loaded: none.\n(0.03 secs, 9403572 bytes)\nghci> :l Exercises\n[1 of 1] Compiling Exercises        ( Exercises.hs, interpreted )\n\nExercises.hs:64:1:\n    Equations for `add' have different numbers of arguments\n      Exercises.hs:64:1-14\n      Exercises.hs:65:1-38\nFailed, modules loaded: none.\n(0.05 secs, 9404636 bytes)\nghci> :l Exercises\n[1 of 1] Compiling Exercises        ( Exercises.hs, interpreted )\n\nExercises.hs:64:1:\n    Equations for `add' have different numbers of arguments\n      Exercises.hs:64:1-14\n      Exercises.hs:65:1-41\nFailed, modules loaded: none.\n(0.05 secs, 9402648 bytes)\nghci> :l Exercises\n[1 of 1] Compiling Exercises        ( Exercises.hs, interpreted )\n\nExercises.hs:64:1:\n    Equations for `add' have different numbers of arguments\n      Exercises.hs:64:1-24\n      Exercises.hs:65:1-41\nFailed, modules loaded: none.\n(0.05 secs, 9404936 bytes)\nghci> :l Exercises\n[1 of 1] Compiling Exercises        ( Exercises.hs, interpreted )\n\nExercises.hs:64:1:\n    Equations for `add' have different numbers of arguments\n      Exercises.hs:64:1-24\n      Exercises.hs:65:1-39\nFailed, modules loaded: none.\n(0.03 secs, 9402360 bytes)\nghci> ",
+			"settings":
+			{
+				"buffer_size": 3744,
+				"line_ending": "Windows",
+				"name": "*REPL* [haskell]",
+				"scratch": true
 			}
 		}
 	],
 	"build_system": "Packages/Haskell/Haskell.sublime-build",
 	"command_palette":
 	{
-		"height": 272.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
-				"Package Control: ",
-				"Package Control: List Packages"
-			],
-			[
 				"rh",
 				"SublimeREPL: Haskell"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"ruby",
+				"SublimeREPL: Ruby"
+			],
+			[
+				"rub",
+				"SublimeREPL: Ruby"
+			],
+			[
+				"has",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"scala",
+				"SublimeREPL: Scala"
+			],
+			[
+				"scal",
+				"SublimeREPL: Scala"
+			],
+			[
+				"pytho",
+				"SublimeREPL: Python"
+			],
+			[
+				"Scala",
+				"SublimeREPL: Scala"
+			],
+			[
+				"form",
+				"Haskell Buddy: Reformat code"
+			],
+			[
+				"pcr",
+				"Package Control: Remove Package"
+			],
+			[
+				"pcre",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sca",
+				"SublimeREPL: Scala"
+			],
+			[
+				"text",
+				"TextFormatting - Debug Python"
+			],
+			[
+				"ja",
+				"Javap decompilation"
+			],
+			[
+				"java",
+				"Javap decompilation"
+			],
+			[
+				"rose",
+				"Rosetta Code: Get code snippet."
 			],
 			[
 				"rha",
@@ -339,10 +497,6 @@
 				"Rosetta Code: Get code snippet."
 			],
 			[
-				"rose",
-				"Rot13 Selection"
-			],
-			[
 				"pain",
 				"Package Control: Install Package"
 			],
@@ -379,11 +533,11 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 528.0
+		"width": 424.0
 	},
 	"console":
 	{
-		"height": 205.0
+		"height": 54.0
 	},
 	"distraction_free":
 	{
@@ -396,134 +550,134 @@
 	},
 	"file_history":
 	[
-		"/F/Documents and Settings/Roberto/My Documents/My Pictures/prelude.hs",
-		"/E/Workspace/Haskell/src/Script.hs",
-		"/E/Workspace/Haskell/src/Main.hs",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/ModuleInspector.hs",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/sublime_haskell_common.py",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/autocomplete.py",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/autobuild.py",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/Haskell.sublime-completions",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/haskell_type.py",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/package-metadata.json",
-		"/E/Workspace/Haskell/Haskell.cabal",
-		"/E/Workspace/Haskell/proj/SublimeHaskellProj.sublime-workspace",
+		"/E/Workspace/rails_projects/first_app/app/views/users/_form.html.erb",
+		"/E/Workspace/rails_projects/first_app/app/views/users/edit.html.erb",
+		"/E/Other/RubyKoans/about_message_passing.rb",
+		"/E/Other/RubyKoans/about_class_methods.rb",
+		"/E/Workspace/rails_projects/first_app/app/views/users/new.html.erb",
+		"/E/Workspace/Scala/src/main/scala/Main.scala",
 		"/E/Workspace/Haskell/proj/SublimeHaskellProj.sublime-project",
-		"/E/Workspace/Haskell/dist/setup-config",
-		"/E/Workspace/Haskell/dist/package.conf.inplace",
-		"/E/Workspace/Haskell/runhaskell.bat",
-		"/E/Workspace/Haskell/runhaskell.sh",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Haskell/Haskell.sublime-build",
-		"/E/Workspace/Haskell/Setup.hs",
-		"/E/Workspace/Haskell/dist/build/Haskell/runhaskell.sh",
-		"/E/Workspace/Haskell/src/asd/Setup.hs",
-		"/E/Workspace/Haskell/src/asd/Haskell.cabal",
-		"/E/Workspace/Haskell/src/runhaskell.sh",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/Default.sublime-commands",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/TODO.txt",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/Main.sublime-menu",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/SublimeHaskell.sublime-settings",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/E/beta/eclipse/eclipse.ini",
-		"/E/Workspace/Haskell/src/file.txt",
-		"/E/Workspace/Haskell/src/names.txt",
-		"/E/Workspace/Haskell/src/keylog.txt",
-		"/E/Workspace/Haskell/src/scrript.py",
-		"/E/Workspace/Haskell/src/Main.ticky",
-		"/E/Workspace/Haskell/src/Main.hp",
-		"/F/Documents and Settings/Roberto/Desktop/SpaceInvaders-0.4.2/SpaceInvaders.cabal",
-		"/F/Documents and Settings/Roberto/Desktop/SpaceInvaders-0.4.2/src/Main.hs",
-		"/F/Documents and Settings/Roberto/Desktop/HGL-3.2.0.2/Setup.hs",
-		"/F/Documents and Settings/Roberto/Desktop/HGL-3.2.0.2/HGL.cabal",
-		"/E/Workspace/Haskell/src/core.txt",
-		"/F/Program Files/Vim/vimfiles/ftplugin/haskell.vim",
+		"/E/Workspace/rails_projects/first_app/app/mailers/.gitkeep",
+		"/E/Workspace/rails_projects/first_app/app/helpers/users_helper.rb",
+		"/E/Workspace/rails_projects/first_app/app/assets/javascripts/application.js",
+		"/E/Workspace/rails_projects/first_app/Gemfile",
+		"/E/Workspace/rails_projects/first_app/app/assets/javascripts/users.js.coffee",
+		"/E/Workspace/rails_projects/first_app/app/assets/stylesheets/application.css",
+		"/E/Workspace/rails_projects/first_app/app/assets/stylesheets/scaffolds.css.scss",
+		"/E/Workspace/rails_projects/first_app/app/assets/stylesheets/users.css.scss",
+		"/E/ScalaIDE/eclipse.ini",
+		"/E/Other/RubyKoans/about_scope.rb",
+		"/E/Workspace/test/src/Euler14.java",
+		"/E/Workspace/ScalaScreenshoter/.cache",
+		"/E/Workspace/ScalaScreenshoter/.classpath",
+		"/E/Workspace/ScalaScreenshoter/.project",
+		"/E/Workspace/ScalaScreenshoter/.settings/org.eclipse.jdt.core.prefs",
+		"/E/Workspace/ScalaScreenshoter/.settings/org.scala-ide.sdt.core.prefs",
+		"/E/Other/RubyKoans/about_modules.rb",
+		"/E/Other/RubyKoans/about_inheritance.rb",
+		"/E/Other/RubyKoans/about_dice_project.rb",
+		"/E/Other/RubyKoans/about_classes.rb",
 		"/F/Program Files/Vim/_vimrc",
-		"/F/Documents and Settings/Roberto/Application Data/ghc/ghci.conf",
-		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.899/usercmd_t.java",
-		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.344/GameCombat.java",
-		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.329/Reactive.hs",
-		"/E/Workspace/Haskell/src/Snake.hs",
-		"/E/Workspace/course/test/src/L02/List/Tests.hs",
-		"/E/Workspace/course/src/L02/List.hs",
-		"/E/Workspace/course/test/dist/build/course-test/run.bat",
-		"/E/Workspace/course/src/L01/Optional.hs",
-		"/E/Workspace/course/Course.cabal",
-		"/E/Workspace/course/test/Course-Test.cabal",
-		"/E/Workspace/course/test/run.bat",
-		"/E/Workspace/course/test/run.sh",
-		"/E/Workspace/course/src/Course.hs",
-		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/sniper.cfg",
-		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/soldier.cfg",
-		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/engineer.cfg",
-		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/scout.cfg",
-		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/heavyweapons.cfg",
-		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/spy.cfg",
-		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/pyro.cfg",
-		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/demoman.cfg",
-		"/E/Workspace/Haskell/src/Main.s",
-		"/E/Workspace/Haskell/src/Main.hi",
-		"/E/Workspace/Haskell/src/Main.hspp",
-		"/E/Workspace/Haskell/src/Main.o",
-		"/E/Workspace/test/src/Main.java",
-		"/F/Documents and Settings/Roberto/My Documents/Prelude.hs",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Java/JavaC.sublime-build",
-		"/F/Documents and Settings/Roberto/My Documents/baby.hs",
-		"/F/Program Files/Dictionary.com/CleverKeys/ReadMe.txt",
-		"/F/Program Files/FreeSpell/FreeSpell.ini",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/F/Program Files/Steam/steamapps/roberto_ua/team fortress 2/tf/cfg/highframes.cfg",
-		"/F/Documents and Settings/Roberto/Application Data/id Software/quakelive/home/baseq3/ww.cfg",
+		"/F/Program Files/Vim/vim73/plugin/rsense.vim",
+		"/E/Cygwin/home/Roberto/.bashrc",
+		"/E/Other/RubyKoans/about_scoring_project.rb",
+		"/E/Other/RubyKoans/about_sandwich_code.rb",
+		"/E/Other/RubyKoans/about_blocks.rb",
+		"/E/Other/RubyKoans/example_file.txt",
+		"/E/Other/RubyKoans/about_iteration.rb",
+		"/E/Other/RubyKoans/about_triangle_project.rb",
+		"/E/Other/RubyKoans/about_control_statements.rb",
+		"/E/Other/RubyKoans/triangle.rb",
+		"/E/Other/RubyKoans/about_triangle_project_2.rb",
+		"/E/Other/RubyKoans/about_exceptions.rb",
+		"/E/Other/RubyKoans/about_true_and_false.rb",
+		"/E/Other/RubyKoans/about_constants.rb",
+		"/E/Other/RubyKoans/about_methods.rb",
+		"/E/Other/RubyKoans/about_regular_expressions.rb",
+		"/E/Other/RubyKoans/GREED_RULES.txt",
+		"/E/Other/RubyKoans/about_symbols.rb",
+		"/E/Other/RubyKoans/about_java_interop.rb",
+		"/E/Other/RubyKoans/about_strings.rb",
+		"/E/Other/RubyKoans/about_hashes.rb",
+		"/E/Other/RubyKoans/about_array_assignment.rb",
+		"/E/Other/RubyKoans/about_arrays.rb",
+		"/E/Other/RubyKoans/about_objects.rb",
+		"/E/Other/RubyKoans/about_nil.rb",
+		"/E/Other/RubyKoans/Rakefile",
+		"/E/Other/RubyKoans/about_asserts.rb",
+		"/E/Enterprise/play/play.bat",
+		"/E/ScalaIDE/workspace/myFirstApp/.gitignore",
+		"/E/ScalaIDE/workspace/myFirstApp/project/plugins.sbt",
+		"/E/Workspace/Haskell/src/Exercises.hs",
+		"/E/Enterprise/play/play",
+		"/E/Enterprise/play/README.md",
+		"/E/ScalaIDE/workspace/myFirstApp/README",
+		"/F/Documents and Settings/Roberto/Desktop/New Text Document.txt",
+		"/E/ScalaIDE/workspace/progfun-objsets/project/StyleChecker.scala",
+		"/E/ScalaIDE/workspace/progfun-objsets/project/ScalaTestRunner.scala",
+		"/F/Documents and Settings/Roberto/Desktop/Euler.scala",
+		"/F/Documents and Settings/Roberto/Thread2.scala",
+		"/E/ScalaIDE/workspace/progfun-objsets/project/Settings.scala",
+		"/E/ScalaIDE/workspace/progfun-objsets/project/RichJsValue.scala",
+		"/E/ScalaIDE/workspace/progfun-objsets/project/project/buildPlugins.sbt",
+		"/F/Documents and Settings/Roberto/Thread.scala",
+		"/E/Workspace/Haskell/src/Main.hs",
+		"/E/ScalaIDE/workspace/recfun/src/main/scala/recfun/Main.scala",
+		"/E/Workspace/SpaceInvaders/SpaceInvaders/src/com/roberto/screens/MainMenu.java",
+		"/E/Workspace/Sedgwick/8puzzle/puzzle00.txt",
+		"/E/Workspace/Sedgwick/8puzzle/puzzle01.txt",
+		"/E/Workspace/Sedgwick/8puzzle/puzzle04.txt",
+		"/E/ScalaIDE/workspace/SpaceInvadersScala/res/menu/uiskin.atlas",
+		"/E/ScalaIDE/workspace/SpaceInvadersScala/res/menu/uiskin.json",
+		"/E/ScalaIDE/workspace/SpaceInvadersScala/res/menu/Copy of uiskin.json",
+		"/E/Workspace/SpaceInvaders/SpaceInvaders/src/com/roberto/main/Main.java",
+		"/E/Workspace/SpaceInvaders/SpaceInvaders/src/com/roberto/simulation/GameLogic.java",
+		"/E/Workspace/SpaceInvaders/SpaceInvaders/src/com/roberto/screens/GameLoop.java",
+		"/E/Workspace/SpaceInvaders/SpaceInvaders/src/com/roberto/screens/AbstractScreen.java",
+		"/E/Workspace/SpaceInvaders/SpaceInvaders-desktop/src/com/roberto/Desktop.java",
+		"/E/Workspace/Scala/src/main/scala/Element.scala",
+		"/E/Workspace/SpaceInvaders/SpaceInvaders/src/com/roberto/screens/GameOver.java",
+		"/E/Workspace/Scala/src/main/scala/Rational.scala",
+		"/E/Other/scalaKoans/src/test/scala/org/functionalkoans/forscala/AboutManifests.scala",
+		"/E/Workspace/Haskell/src/Script.hs",
+		"/E/Other/scalaKoans/src/test/scala/org/functionalkoans/forscala/AboutValAndVar.scala",
+		"/F/Documents and Settings/Roberto/Application Data/id Software/quakelive/home/baseq3/ui/skill.menu",
+		"/F/Documents and Settings/Roberto/Application Data/id Software/quakelive/home/baseq3/ui/cooller.menu",
 		"/E/eclipse/eclipse.ini",
-		"/E/Indigo/eclipse/eclipse.ini",
-		"/F/Documents and Settings/Roberto/Desktop/runhaskell.sh",
-		"/F/Documents and Settings/Roberto/Desktop/Main.hs",
-		"/E/Workspace/Haskell/src/runhaskell.bat",
-		"/E/jdk-fe578c2b482b/README",
-		"/E/jdk-fe578c2b482b/THIRD_PARTY_README",
-		"/E/jdk-fe578c2b482b/make/Makefile",
-		"/E/jdk-fe578c2b482b/src/share/bin/java.c",
-		"/E/jdk-fe578c2b482b/src/share/native/java/lang/Double.c",
-		"/E/jdk-fe578c2b482b/src/share/native/java/lang/Thread.c",
-		"/E/jdk-fe578c2b482b/src/share/native/java/lang/System.c",
-		"/E/jdk-fe578c2b482b/src/share/native/java/lang/Compiler.c",
-		"/E/jdk-fe578c2b482b/src/share/native/java/lang/ClassLoader.c",
-		"/E/jdk-fe578c2b482b/src/share/native/java/lang/ref/Finalizer.c",
-		"/E/jdk-fe578c2b482b/src/share/classes/java/lang/String.java",
-		"/E/jdk-fe578c2b482b/src/share/classes/java/util/Iterators.java",
-		"/F/Program Files/Java/jdk1.8.0/release",
-		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.395/GTKColorChooserPanel.java",
-		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.981/Predicate.java",
-		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.027/Mapper.java",
-		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.942/IntBinaryOperator.java",
-		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.104/DoubleBinaryOperator.java",
-		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.968/BiPredicate.java",
-		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.125/Predicates.java",
-		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.301/util.c",
-		"/E/Books/Craig_Larman_Applying_UML_and_patterns_SE.djvu",
-		"/E/Workspace/Screenshoter/.gitignore",
-		"/E/Workspace/Screenshoter/.gitattributes",
-		"/E/Libraries/Vorbis/VorbisJava/tools/src/main/java/org/gagravarr/ogg/tools/OggInfoTool.java",
-		"/E/Workspace/Haskell/Haskell.lkshs",
-		"/E/Workspace/Haskell/Haskell.lkshw",
-		"/E/Workspace/Haskell/Setup.lhs",
-		"/E/Workspace/Haskell/.project",
-		"/E/Workspace/Haskell/dist/build/autogen/Paths_Haskell.hs",
-		"/E/Workspace/Haskell/dist/build/autogen/cabal_macros.h",
-		"/E/Workspace/Haskell/dist/build/Haskell/Haskell-tmp/Main.o",
-		"/E/Workspace/Haskell/dist/build/Haskell/Haskell-tmp/Main.hi",
-		"/E/Workspace/Haskell/src/1000.txt",
-		"/E/Workspace/Haskell/src/proj/asd.sublime-project",
+		"/F/Documents and Settings/Roberto/Application Data/id Software/quakelive/home/baseq3/ui/cooller.cfg",
+		"/F/Documents and Settings/Roberto/Desktop/balagez-Benchmark.scala-2d9ec76/project/plugins/build.sbt",
+		"/F/Documents and Settings/Roberto/Desktop/balagez-Benchmark.scala-2d9ec76/build.sbt",
+		"/F/Documents and Settings/Roberto/Desktop/balagez-Benchmark.scala-2d9ec76/src/main/scala/com/balagez/example/BenchmarkExample.scala",
+		"/F/Documents and Settings/Roberto/Desktop/balagez-Benchmark.scala-2d9ec76/src/main/scala/com/balagez/testing/Benchmark.scala",
+		"/E/Other/scalaKoans/src/test/scala/org/functionalkoans/forscala/AboutLazySequences.scala",
+		"/E/Other/scalaKoans/src/test/scala/org/functionalkoans/forscala/AboutEnumerations.scala",
+		"/F/Documents and Settings/Roberto/Desktop/exaba/config.php",
+		"/F/Documents and Settings/Roberto/Local Settings/Temp/Rar$DIa0.537/MANIFEST.MF",
+		"/F/Documents and Settings/Roberto/Desktop/exaba/install.php",
+		"/F/Documents and Settings/Roberto/Desktop/gmiller2007-gae-imageboard-9535eef/imgboard.py",
+		"/F/Documents and Settings/Roberto/Desktop/gmiller2007-gae-imageboard-9535eef/README.md",
+		"/E/Workspace/Scala/src/main/scala/Euler.scala",
+		"/E/ScalaIDE/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs",
+		"/E/ScalaIDE/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs",
+		"/E/ScalaIDE/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.scala-ide.sdt.core.prefs",
+		"/F/Documents and Settings/Roberto/My Documents/Tomorrow-Night.epf",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Default/Preferences (Windows).sublime-settings",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/User/Haskell.sublime-settings",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/User/JSON.sublime-settings",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Haskell/Haskell.tmLanguage",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/Haskell/Haskell.tmLanguage.cache",
-		"/E/Workspace/Haskell/src/New Text Document.txt",
-		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/SublimeHaskell/README.md",
-		"/F/Documents and Settings/Roberto/Desktop/channel.jpg",
-		"/F/Documents and Settings/Roberto/.DBCfg/cfg.ini",
-		"/F/Documents and Settings/Roberto/.DBCfg/cfg.xml",
-		"/E/Workspace/course/test/.ghci"
+		"/F/Documents and Settings/Roberto/My Documents/asd.epf",
+		"/E/ScalaIDE/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.net.prefs",
+		"/E/ScalaIDE/workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs",
+		"/F/Documents and Settings/Roberto/My Documents/Downloads/theme-2075.epf",
+		"/F/Documents and Settings/Roberto/My Documents/Downloads/theme-3283 (1).epf",
+		"/E/Cygwin/Cygwin.bat",
+		"/E/Workspace/Scala/runscala.bat",
+		"/F/Documents and Settings/Roberto/Application Data/Sublime Text 2/Packages/User/scala.sublime-build",
+		"/F/Program Files/sbt/sbt",
+		"/E/Workspace/Scala/runscala.sh",
+		"/F/Documents and Settings/Roberto/My Documents/Downloads/TableSelection.txt"
 	],
 	"find":
 	{
@@ -534,6 +688,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"<open files>,<open folders>"
 		]
 	},
 	"find_state":
@@ -541,6 +696,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"guifont",
+			"/instance/org.eclipse.ui.editors/",
+			"/instance/org.eclipse.jdt.ui/",
+			"/instance/org.scala-ide.sdt.core/",
+			"syntaxColouring.xml",
+			"scala",
+			"JVM_ArrayCopy",
+			"mem",
+			"array",
+			"memcpy",
+			"JVM_ArrayCopy",
+			"Xmx",
+			"cpp",
+			".java",
+			"class",
+			"mode",
+			"console",
+			"~",
+			"\\",
 			"get_cabal_project_dir_of_file",
 			"map",
 			"mapM",
@@ -617,6 +791,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"/",
 			""
 		],
 		"reverse": false,
@@ -628,34 +804,94 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "prelude.hs",
+					"file": "/E/Workspace/Haskell/src/Script.hs",
 					"settings":
 					{
-						"buffer_size": 20583,
+						"buffer_size": 11967,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1719,
+								1719
 							]
 						],
 						"settings":
 						{
-							"encoding_helper_confidence": 1.0,
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_helper_encoding_sublime": "UTF-8",
-							"syntax": "Packages/Haskell/Haskell.tmLanguage"
+							"syntax": "Packages/Haskell/Haskell.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/Workspace/Haskell/src/Exercises.hs",
+					"settings":
+					{
+						"buffer_size": 5524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1690,
+								1690
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haskell/Haskell.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 633.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 3744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3744,
+								3744
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"detect_indentation": false,
+							"indent_subsequent_lines": false,
+							"repl": true,
+							"repl_external_id": "haskell",
+							"repl_id": "ca65ea9130cb425f9040949bbc0888f8",
+							"smart_indent": false,
+							"syntax": "Packages/Haskell/Haskell.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1396.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -696,7 +932,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 42.0
+		"height": 321.0
 	},
 	"output.haskell_error_checker":
 	{
@@ -704,7 +940,7 @@
 	},
 	"output.unsaved_changes":
 	{
-		"height": 607.0
+		"height": 176.0
 	},
 	"replace":
 	{
@@ -740,7 +976,7 @@
 		"width": 380.0
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": false,
 	"side_bar_width": 190.0,
